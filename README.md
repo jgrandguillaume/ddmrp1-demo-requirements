@@ -18,5 +18,5 @@ Check if we are using virtualenv correctly
 
 Install the requirements.txt
 
-pip3 install -r https://raw.githubusercontent.com/jgrandguillaume/ddmrp1-demo-requirements/master/requirements.txt --pre
+pip3 install -r https://raw.githubusercontent.com/jgrandguillaume/ddmrp11-demo-requirements/master/requirements.txt --pre
 pip3 install bokeh==0.12.7
