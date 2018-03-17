@@ -1,0 +1,31 @@
+https://nightly.odoo.com/11.0/nightly/src/odoo_11.0.latest.zip
+
+# OCA/manufacture
+
+-e git+https://github.com/mpanarin/manufacture.git@11.0-mig-mrp_bom_location#egg=odoo11_addon_mrp_bom_location&subdirectory=setup/mrp_bom_location
+-e git+https://github.com/ursais/manufacture.git@11.0-mig-mrp_mto_with_stock#egg=odoo11_addon_mrp_mto_with_stock&subdirectory=setup/mrp_mto_with_stock
+
+# OCA/manufacture-reporting
+
+-e git+https://github.com/mpanarin/manufacture-reporting.git@11.0-mig-mrp_bom_current_stock#egg=odoo11_addon_mrp_bom_current_stock&subdirectory=setup/mrp_bom_current_stock
+
+# OCA/stock-logistics-warehouse
+
+-e git+https://github.com/mpanarin/stock-logistics-warehouse.git@11.0-mig-stock_available_unreserved#egg=odoo11_addon_stock_available_unreserved&subdirectory=setup/stock_available_unreserved
+-e git+https://github.com/mpanarin/stock-logistics-warehouse.git@11.0-mig-stock_warehouse_orderpoint_stock_info_unreserved#egg=odoo11_addon_stock_warehouse_orderpoint_stock_info_unreserved&subdirectory=setup/stock_warehouse_orderpoint_stock_info_unreserved
+-e git+https://github.com/ursais/stock-logistics-warehouse.git@11.0-mig-stock_orderpoint_manual_procurement_uom#egg=odoo11_addon_stock_orderpoint_manual_procurement_uom&subdirectory=setup/stock_orderpoint_manual_procurement_uom
+-e git+https://github.com/mpanarin/stock-logistics-warehouse.git@11.0-mig-stock_demand_estimate#egg=odoo11_addon_stock_demand_estimate&subdirectory=setup/stock_demand_estimate
+
+# OCA/Web
+
+-e git+https://github.com/simahawk/web.git@11-mig-web_widget_x2many_2d_matrix#egg=odoo11_addon_web_widget_x2many_2d_matrix&subdirectory=setup/web_widget_x2many_2d_matrix
+-e git+https://github.com/guewen/web.git@11.0-fix-dynamic-colored-json-parse-object#egg=odoo11_addon_web_tree_dynamic_colored_field&subdirectory=setup/web_tree_dynamic_colored_field
+
+# Eficent/Guewen/ddmrp
+
+-e git+https://github.com/guewen/ddmrp.git@mig-ddmrp#egg=odoo11_addon_ddmrp&subdirectory=setup/ddmrp
+-e git+https://github.com/guewen/ddmrp.git@mig-ddmrp#egg=odoo11_addon_ddmrp_history&subdirectory=setup/ddmrp_history
+-e git+https://github.com/guewen/ddmrp.git@mig-ddmrp#egg=odoo11_addon_ddmrp_adjustment&subdirectory=setup/ddmrp_adjustment
+-e git+https://github.com/guewen/ddmrp.git@mig-ddmrp#egg=odoo11_addon_ddmrp_product_replace&subdirectory=setup/ddmrp_product_replace
+-e git+https://github.com/guewen/ddmrp.git@mig-ddmrp#egg=odoo11_addon_ddmrp_exclude_moves_adu_calc&subdirectory=setup/ddmrp_exclude_moves_adu_calc
+
